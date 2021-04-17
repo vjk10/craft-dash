@@ -292,6 +292,13 @@ function CloudStorage({ match, idea_boards }) {
                   <img alt="Delete File" title="Delete File" />
                 </div>
               </div>
+              <div
+                className={`delete-icon-wrapper ${
+                  dark ? '' : ''
+                }`}
+              >
+				  <img alt="Delete File" name="Delete File"/>
+			  </div>
             </div>
           );
         })}
