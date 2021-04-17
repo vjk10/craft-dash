@@ -292,13 +292,6 @@ function CloudStorage({ match, idea_boards }) {
                   <img alt="Delete File" title="Delete File" />
                 </div>
               </div>
-              <div
-                className={`delete-icon-wrapper ${
-                  dark ? '' : ''
-                }`}
-              >
-				  <img alt="Delete File" name="Delete File"/>
-			  </div>
             </div>
           );
         })}
@@ -424,7 +417,7 @@ function CloudStorage({ match, idea_boards }) {
 					</div> */}
           <div className={`add-button ${dark ? "" : "add-button-light"}`}>
             <img
-              src={dark ? AddFilesButtonLight :AddFilesButton}
+              src={dark ? AddFilesButtonLight : AddFilesButton}
               alt="Upload to Cloud"
               title="Upload to Cloud"
               style={{
